@@ -1,6 +1,6 @@
 body{
     color: rgb(255, 255, 255);
-    background-color: rgb(42, 28, 78);
+    background-color: rgb(23, 16, 43);
 }
 h1{
     font-size: 32px;
@@ -13,5 +13,5 @@ p{
     background-color: rgb(15, 15, 15);;
 }
 .bluebg {
-    background-color: rgb(29, 29, 51);
+    background-color: rgb(42, 42, 75);
 }
