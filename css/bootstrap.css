@@ -1,0 +1,17 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 28, 78);
+}
+h1{
+    font-size: 32px;
+
+}
+p{
+    text-align: left;
+}
+.container{
+    background-color: rgb(15, 15, 15);;
+}
+.bluebg {
+    background-color: rgb(29, 29, 51);
+}
