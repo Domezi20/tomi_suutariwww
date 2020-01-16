@@ -1,0 +1,41 @@
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+h1{
+    font-size: 16px;
+    border-bottom: solid;
+    color: red;
+}
+p{
+    text-align: left;
+}
+a:link {
+    color: black;
+    padding-left: 5px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    padding-left: 5px;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    padding-left: 5px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    padding-left: 5px;
+  }
+  figcaption {
+    display: block;
+  }
+  figure{
+    float: right;
+  }
