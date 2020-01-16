@@ -1,35 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>My HTML page</title>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap Template</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://mdbootstrap.com/previews/docs/latest/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://mdbootstrap.com/previews/docs/latest/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/e6.css">
 </head>
+
 <body>
-<h1>My introduction</h1>
-<p>This is random text. Hello World. Lets see what happens</p>
-<div><em>element 1</em> <em>element 2</em> <em>element 3</em></div>
-<div><em>New line</em></div>
-<p> this is properly formatted in terms of whitespaces</p>
-<ol>
-    <li>Chapter 1</li>
-    <li>Chapter 2</li>
-    <li>Chapter 3</li>
-    <li>Chapter 4
-      <ul>
-        <li><strong> 4.1</strong></li>
-        <li>Chapter 4.2</li>
-      </ul>
-    </li>
-</ol>
-<img src="images/image.jpg" alt="Koulu" title="Kuva Koulusta" width="200px" height="300px"> 
-<h2>Heading 2</h2>
-<article>
-  <h1>What Does WWF Do?</h1>
-  <p>WWF's mission is to stop the degradation of our planet's natural environment,
-  and build a future in which humans live in harmony with nature.</p>
-</article>
-
-<p>We open at <time>10:00</time> every morning.</p>
-
-<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+  <!-- Main navigation -->
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>TS</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exercise1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Exercise2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Exercise3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Exercise4</a>
+              </li>
+          </ul>
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Full Page Intro -->
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('images/drone2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 mb-4 white-text text-center">
+              <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Tomi Suutari</strong></h1>
+              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+              <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Web-kehitys TK00CB16-3003</strong></h5>
+              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">My Excercises</a>
+              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
+    <!-- Full Page Intro -->
+  </header>
+  <!-- Main navigation -->
+  <!--Main Layout-->
+  <main>
+    <div class="container">
+      <!--Grid row-->
+      <div class="row py-5">
+        <!--Grid column-->
+        <div class="col-md-12 text-center">
+          <p>This is site to see my exercises on WEB-KEHITYS TK00CB16-3003 course. I didn't make the javascrips but wanted to play around with them.</p>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+  </main>
+  <!--Main Layout-->
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/jquery-3.3.1.min.js"></script>
+  <!-- Tooltips -->
+  <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 </body>
+
 </html>
